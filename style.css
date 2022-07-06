@@ -57,10 +57,39 @@ body{
     background-color:#FAFAFA;
 }
 .donation-amount:hover{
-color: tomato;
+    color: tomato;
     border: 3px solid tomato;
     background-color: rgb(243, 217, 209);
 }
 .button-position{
     text-align: center;
+}
+.donation-plan{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.plans{
+    display: flex;
+   padding: 50px 200px;
+}
+.single-plan{
+    text-align: left;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.single-plan p{
+    text-align: left;
+}
+.food-plan{
+    background: rgba(79, 157, 166, 0.1);
+}
+.sheltar-plan{
+    background: rgba(255, 89, 89, 0.1);
+}
+.education-plan{
+    background: #FFF4D6;
 }
