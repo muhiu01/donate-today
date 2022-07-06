@@ -105,6 +105,22 @@ body{
 .education-plan{
     background: #FFF4D6;
 }
+.photo-gallery{
+    margin: 5% 10% 5% 10%;
+}
+.gallery{
+    display: flex;
+}
+.galler h1{
+    text-align: center;
+}
+.photo{
+    height: 400px;
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+}
 .our-update{
     text-align: center;
     margin-top: 30px;
