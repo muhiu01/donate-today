@@ -47,6 +47,9 @@ body{
    margin-left: 300px;
    display: flex;
 }
+.amount-number{
+    text-align: center;
+}
 .donation-amount{
     margin-left: 10px;
     color: gray;
@@ -61,6 +64,14 @@ body{
     color: tomato;
     border: 3px solid tomato;
     background-color: rgb(243, 217, 209);
+}
+input{
+    border: none;
+    border-bottom: 2px solid lightgray;
+    width: 400px;
+    text-align: center;
+    font-weight: lighter;
+    height: 30px;
 }
 .button-position{
     text-align: center;
@@ -102,9 +113,7 @@ body{
 }
 .subscription{
     margin: auto;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    display: flex;
     background:#FFF4D6;
     width: 800px;
     height: 150px;
