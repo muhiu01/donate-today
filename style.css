@@ -52,6 +52,7 @@ body{
 }
 .amount-number{
     text-align: center;
+    margin-bottom: 10px;
 }
 .donation-amount{
     margin-left: 10px;
