@@ -100,3 +100,38 @@ body{
     margin-left: 25%;
     margin-right: 25%;
 }
+.subscription{
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:#FFF4D6;
+    width: 800px;
+    height: 150px;
+}
+.e-mail{
+    background: lightgray;
+    font-size: large;
+}
+.subscribe{
+    padding:5px;
+    color: white;
+    background: tomato;
+}
+footer{
+    margin-top: 70px;
+    text-align: center;
+    background: #0B0D17;
+}
+.footer-elements{
+    padding: 20px 0px ;
+}
+.footer-elements h3{
+    color: tomato;
+    font-family: Lobster;
+}
+.footer-elements p{
+    color: white;
+    font-size: x-small;
+    font-weight: lighter;
+}
