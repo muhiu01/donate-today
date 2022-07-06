@@ -1,0 +1,66 @@
+body{
+    width: 1440px;
+    font-family: 'Inter', sans-serif;
+    margin: 0%;
+}
+.donate-now{
+    color: white;
+    text-align: center;
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    height: 669px;
+}
+.background-gradiant{
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    width: 1440px;
+    height: 669px;
+}
+.text-area{
+    padding: 100px;
+}
+.donate-now h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.link-button{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 5px;
+}
+.donate-today h1, p{
+    text-align: center;
+}
+.donate-today h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.donate-today p{
+    color: gray;
+}
+.donation-cards{
+   margin-left: 300px;
+   display: flex;
+}
+.donation-amount{
+    margin-left: 10px;
+    color: gray;
+    font-size: 30px;
+    font-weight: bold;
+    width: 136px;
+    height: 100px;
+    background-color:#FAFAFA;
+}
+.donation-amount:hover{
+color: tomato;
+    border: 3px solid tomato;
+    background-color: rgb(243, 217, 209);
+}
+.button-position{
+    text-align: center;
+}
