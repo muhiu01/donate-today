@@ -33,7 +33,7 @@ body{
     padding: 10px;
     border-radius: 5px;
 }
-.donate-today h1, p{
+.donate-today{
     text-align: center;
 }
 .donate-today h1{
@@ -50,6 +50,7 @@ body{
 .donation-amount{
     margin-left: 10px;
     color: gray;
+    text-align: center;
     font-size: 30px;
     font-weight: bold;
     width: 136px;
@@ -66,7 +67,7 @@ body{
 }
 .donation-plan{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 20px;
     margin-left: 25%;
     margin-right: 25%;
@@ -92,4 +93,10 @@ body{
 }
 .education-plan{
     background: #FFF4D6;
+}
+.our-update{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
