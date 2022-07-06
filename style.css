@@ -65,7 +65,7 @@ body{
     border: 3px solid tomato;
     background-color: rgb(243, 217, 209);
 }
-input{
+.amount{
     border: none;
     border-bottom: 2px solid lightgray;
     width: 400px;
@@ -114,6 +114,8 @@ input{
 .subscription{
     margin: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
     background:#FFF4D6;
     width: 800px;
     height: 150px;
